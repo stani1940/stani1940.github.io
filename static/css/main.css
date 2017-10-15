@@ -1,0 +1,90 @@
+html {
+  font-family: Garamond;
+
+}
+
+body  {
+  background: #5f5f5f url("../images/background.png") top left repeat;
+
+}
+
+/* Header */
+.search-icons-container img {
+  height: 50px;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+#advanced-search{
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding: 5px;
+  width: 70%;
+  box-shadow: 2px 2px 2px 0px rgba(35,32,31,0.35) ;
+}
+#search-button{
+  border: 2px solid silver;
+  margin-left: 10px;
+  height: 35px;
+}
+/* Navigation */
+.navigation-container .box {
+  border-bottom: 3px solid silver;
+  padding: 10px 5px;
+  font-size: 20px;
+}
+.navigation-container .box > span {
+  padding: 0px 30px;
+}
+.navigation-container .box >a{
+  padding: 3px 55px; 
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 0 15px 2px rgba(35,32,31,0.35);
+}
+
+/* Articles */
+.article-container {
+  margin-top: 30px;
+  font-style: italic;
+  width: 800px;
+}
+.text-container {
+  border: 2px solid black;
+  padding: 15px;
+  font-size: 22px;
+  box-shadow: 5px 5px 20px blue ;
+  margin-bottom: 70px;
+
+}
+.calendar-container img{
+  height: 300px;
+}
+.technologies-container {
+  padding-left: 50px;
+}
+.technologies-container p  {
+  font-family: Georgia;
+  font-size: 28px;
+  cursor: pointer;
+  margin-top: 10px;
+
+  
+}
+.technologies-container a {
+  text-decoration: none;
+  color: blue;
+  font-size: 28px;
+}
+
+/* Footer */
+.footer-container {
+  border: 1px solid silver;
+}
+.footer-container div {
+  padding: 3px;
+}
+.footer-container a {
+    text-decoration: none;
+    font-style: italic;
+    color: #343434;
+}
